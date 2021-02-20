@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AnkitNew</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?  </string>
+    <string name="already_registered">Already Registered?  </string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_id">EMAIL ID</string>
+    <string name="haldia_dock_complex">HALDIA DOCK COMPLEX</string>
+    <string name="employee_number">Employee Number</string>
+    <string name="length_and_cold_allowance">Length and Cold Allowance</string>
+    <string name="night_act_and_night_weightage_allowance">Night Act and Night Weightage Allowance</string>
+    <string name="honorarium_form">Honorarium Form</string>
+    <string name="night_navigation_allowance">Night Navigation Allowance</string>
+</resources>
