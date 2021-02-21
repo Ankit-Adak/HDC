@@ -29,7 +29,7 @@ public class HomeActivity extends AppCompatActivity
         mLemCold.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String FINAL_URL = "http://drive.google.com/viewerng/viewer?embedded=true&url=https://docdro.id/FKv2vCD";
+                String FINAL_URL = "https://www.docdroid.net/FKv2vCD/length-cold-pdf";
                 Intent intent = new Intent(getApplicationContext(), ViewActivity.class);
                 intent.putExtra("url", FINAL_URL);
                 startActivity(intent);
@@ -38,7 +38,7 @@ public class HomeActivity extends AppCompatActivity
         mNA_NW.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String FINAL_URL = "http://drive.google.com/viewerng/viewer?embedded=true&url=https://docdro.id/0RzmX80";
+                String FINAL_URL = "https://www.docdroid.net/0RzmX80/na-nw-pdf";
                 Intent intent = new Intent(getApplicationContext(), ViewActivity.class);
                 intent.putExtra("url", FINAL_URL);
                 startActivity(intent);
@@ -47,7 +47,7 @@ public class HomeActivity extends AppCompatActivity
         mNightNA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String FINAL_URL = "http://drive.google.com/viewerng/viewer?embedded=true&url=https://docdro.id/QRjmGz2";
+                String FINAL_URL = "https://www.docdroid.net/QRjmGz2/nna-pdf";
                 Intent intent = new Intent(getApplicationContext(), ViewActivity.class);
                 intent.putExtra("url", FINAL_URL);
                 startActivity(intent);
@@ -56,12 +56,11 @@ public class HomeActivity extends AppCompatActivity
         mHonorForm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String FINAL_URL = "http://drive.google.com/viewerng/viewer?embedded=true&url=https://docdro.id/tLtYjPa";
+                String FINAL_URL = "https://www.docdroid.net/tLtYjPa/hf-pdf";
                 Intent intent = new Intent(getApplicationContext(), ViewActivity.class);
                 intent.putExtra("url", FINAL_URL);
                 startActivity(intent);
             }
         });
-
     }
 }
